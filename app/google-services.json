@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "96360090875",
+    "project_id": "upasthit-hai",
+    "storage_bucket": "upasthit-hai.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96360090875:android:54e2cb5fd47a79384d345e",
+        "android_client_info": {
+          "package_name": "com.example.upasthithai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVz81CVVhoNRskkNgHoKNtRIsk2myEWZo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

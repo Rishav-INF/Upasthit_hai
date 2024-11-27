@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350sp"
+        android:layout_height="400sp"
+        android:elevation="5sp"
+        android:outlineAmbientShadowColor="@color/black"
+        app:cardCornerRadius="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498"
+        android:padding="30sp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Requestheading"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:gravity="center"
+                android:text="Requests"
+                android:layout_marginLeft="60sp"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/leave"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:layout_marginTop="30sp"
+                android:layout_marginLeft="10sp"
+                android:text="Request for a Leave"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/manualcheckin"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:layout_marginTop="15sp"
+                android:layout_marginLeft="10sp"
+                android:text="Request for a Manual Check-in"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/manualcheckout"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:layout_marginTop="15sp"
+                android:layout_marginLeft="10sp"
+                android:text="Request for a Manual Check-out"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/requestsstatus"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:layout_marginTop="15sp"
+                android:layout_marginLeft="10sp"
+                android:text="Previous requests status"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

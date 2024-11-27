@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Upasthit hai !</string>
+    <string-array name="user_types_array">
+        <item>employees</item>
+        <item>Manager</item>
+        <item>Admin</item>
+    </string-array>
+
+    <string-array name="office_types_array">
+        <item>office_id_1</item>
+        <item>office_id_2</item>
+        <item>office_id_2</item>
+    </string-array>
+
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name = "maps">AIzaSyDmtScTQOHJTYTdNcKgq76ilXwUtCshyL8</string>
+    <string name = "gemini">AIzaSyCUBy82e-_oVoNUzjf99iV2D5Pnezrjz-U</string>
+</resources>
