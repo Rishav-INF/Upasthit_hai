@@ -13,6 +13,6 @@
     </string-array>
 
     <string name="title_activity_maps">MapsActivity</string>
-    <string name = "maps">AIzaSyDmtScTQOHJTYTdNcKgq76ilXwUtCshyL8</string>
-    <string name = "gemini">AIzaSyCUBy82e-_oVoNUzjf99iV2D5Pnezrjz-U</string>
+    <string name = "maps">putyourAPIhere</string>
+    <string name = "gemini">putyourAPIhere</string>
 </resources>
